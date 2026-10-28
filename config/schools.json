@@ -6,7 +6,7 @@
   "schools": {
     "tnut": {
       "name": "Đại học Kỹ thuật Công nghiệp – Đại học Thái Nguyên",
-      "status": "lock",
+      "status": "unlock",
       "lock_message": "",
       "ads": {
         "status": "off",
