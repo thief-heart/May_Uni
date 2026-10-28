@@ -1,6 +1,6 @@
 {
   "app": {
-    "status": "lock",
+    "status": "unlock",
     "lock_message": ""
   },
   "schools": {
