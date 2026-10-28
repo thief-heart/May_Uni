@@ -1,1 +1,38 @@
-
+{
+  "app": {
+    "status": "unlock",
+    "lock_message": ""
+  },
+  "schools": {
+    "tnut": {
+      "name": "Đại học Kỹ thuật Công nghiệp – Đại học Thái Nguyên",
+      "status": "unlock",
+      "lock_message": "",
+      "ads": {
+        "status": "off",
+        "image_url": "",
+        "target_url": ""
+      },
+      "campus_map": {
+        "image_url": "",
+        "source": ""
+      },
+      "guides": []
+    },
+    "tnu-sfl": {
+      "name": "Trường Ngoại ngữ – Đại học Thái Nguyên",
+      "status": "unlock",
+      "lock_message": "",
+      "ads": {
+        "status": "off",
+        "image_url": "",
+        "target_url": ""
+      },
+      "campus_map": {
+        "image_url": "",
+        "source": ""
+      },
+      "guides": []
+    }
+  }
+}
