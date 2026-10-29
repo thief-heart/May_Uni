@@ -1,101 +1,272 @@
 {
-  "schemaVersion": 1,
+  "draftSchemaVersion": 1,
   "schoolId": "tnut",
-  "version": "sample-1",
+  "status": "DRAFT_NOT_FOR_PUBLICATION",
+  "researchedAt": "2026-10-29",
+  "published": false,
+  "notes": [
+    "Bản nháp nghiên cứu, không phải dữ liệu Google Maps đã xác minh.",
+    "Google Maps embed trả 403; chưa xác minh trực tiếp listing Google Maps, trạng thái còn hoạt động hoặc khoảng cách tới trường.",
+    "mapsSearchUrl là liên kết tìm kiếm tự tạo, không phải URL listing đã xác minh.",
+    "Thông tin địa chỉ và điện thoại là thông tin nguồn công khai báo cáo, có thể đã cũ.",
+    "Giá khoảng và giờ nguồn báo cáo giữ riêng trong research, không đưa vào giá hiện tại hoặc lịch mở cửa đã xác minh.",
+    "Chưa tải ảnh hoặc sao chép đánh giá cộng đồng. Chưa cập nhật dữ liệu app/GitHub."
+  ],
   "places": [
     {
-      "id": "sample-food",
+      "id": "quan-mam-cong-nghiep",
       "categoryId": "food",
-      "name": "[MẪU] Ăn uống",
-      "description": "Dữ liệu minh họa để xem giao diện, không phải địa điểm thật. Không dùng giá hay tọa độ này để đi thực tế.",
-      "address": "Địa chỉ minh họa — không phải địa điểm thật",
+      "name": "Quán Mắm - Đại học Công Nghiệp Thái Nguyên",
+      "description": "",
+      "address": "1091 Đ. 3/2, Tích Lương, Thái Nguyên, Việt Nam",
+      "coordinates": null,
       "cover": "",
       "images": [],
-      "coordinates": {
-        "latitude": 0.001,
-        "longitude": 0.005
-      },
-      "phone": "",
-      "sample": true,
-      "verifiedAt": "2026-10-01",
-      "recommended": true,
-      "studentBudget": true,
+      "phone": "+84833736694",
+      "sample": false,
+      "verifiedAt": "",
+      "recommended": false,
+      "studentBudget": false,
       "opening_hours": {
-        "type": "schedule",
-        "verifiedAt": "2026-10-01",
-        "days": {
-          "monday": [
-            {
-              "open": "18:00",
-              "close": "02:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "open": "18:00",
-              "close": "02:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "open": "18:00",
-              "close": "02:00"
-            }
-          ],
-          "thursday": [
-            {
-              "open": "18:00",
-              "close": "02:00"
-            }
-          ],
-          "friday": [
-            {
-              "open": "18:00",
-              "close": "02:00"
-            }
-          ],
-          "saturday": [
-            {
-              "open": "18:00",
-              "close": "02:00"
-            }
-          ],
-          "sunday": [
-            {
-              "open": "18:00",
-              "close": "02:00"
-            }
-          ]
-        }
+        "type": "unknown"
       },
-      "prices": [
-        {
-          "name": "Món minh họa",
-          "unit": "VNĐ/suất",
-          "price_history": [
-            {
-              "price": 25000,
-              "recorded_at": "2026-08-12"
-            },
-            {
-              "price": 30000,
-              "recorded_at": "2026-10-29"
-            }
-          ]
-        }
-      ],
+      "prices": [],
       "author_review": {
-        "overall": 7.5,
-        "price": 8,
-        "quality": 7,
-        "service": 7,
-        "space": 8,
-        "text": "Nhận xét minh họa của tác giả, không phải đánh giá quán thật.",
-        "pros": [
-          "Điểm tốt minh họa"
+        "overall": null,
+        "price": null,
+        "quality": null,
+        "service": null,
+        "space": null,
+        "text": "",
+        "pros": [],
+        "cons": []
+      },
+      "research": {
+        "status": "NEEDS_VERIFICATION",
+        "sourceUrl": "https://toididau.net/place/quan-mam-dai-hoc-cong-nghiep-thai-nguyen/37746",
+        "sourceType": "THIRD_PARTY_DIRECTORY",
+        "accessedAt": "2026-10-29",
+        "mapsListingUrl": null,
+        "mapsSearchUrl": "https://www.google.com/maps/search/?api=1&query=Qu%C3%A1n%20M%E1%BA%AFm%20-%20%C4%90%E1%BA%A1i%20h%E1%BB%8Dc%20C%C3%B4ng%20Nghi%E1%BB%87p%20Th%C3%A1i%20Nguy%C3%AAn%201091%20%C4%90.%203%2F2%2C%20T%C3%ADch%20L%C6%B0%C6%A1ng%2C%20Th%C3%A1i%20Nguy%C3%AAn%2C%20Vi%E1%BB%87t%20Nam",
+        "distanceToSchoolKm": null,
+        "reportedOpeningHours": "09:00–22:00",
+        "reportedPriceRangeVnd": null,
+        "priceRecordedAt": null,
+        "checksNeeded": [
+          "Xác nhận còn hoạt động",
+          "Xác nhận vị trí và khoảng cách tới TNUT",
+          "Xác nhận địa chỉ và điện thoại",
+          "Xác nhận lịch mở cửa từng ngày",
+          "Xác nhận món/dịch vụ, giá và đơn vị tính",
+          "Xin phép sử dụng ảnh nếu cần"
+        ]
+      }
+    },
+    {
+      "id": "story-tra-chanh-cong-nghiep",
+      "categoryId": "cafe",
+      "name": "Story - Trà Chanh Công Nghiệp",
+      "description": "",
+      "address": "648 Tổ 8, P. Tích Lương, Thái Nguyên",
+      "coordinates": null,
+      "cover": "",
+      "images": [],
+      "phone": "0866111252",
+      "sample": false,
+      "verifiedAt": "",
+      "recommended": false,
+      "studentBudget": false,
+      "opening_hours": {
+        "type": "unknown"
+      },
+      "prices": [],
+      "author_review": {
+        "overall": null,
+        "price": null,
+        "quality": null,
+        "service": null,
+        "space": null,
+        "text": "",
+        "pros": [],
+        "cons": []
+      },
+      "research": {
+        "status": "NEEDS_VERIFICATION",
+        "sourceUrl": "https://www.foody.vn/thai-nguyen/story-tra-chanh-cong-nghiep",
+        "sourceType": "THIRD_PARTY_DIRECTORY",
+        "accessedAt": "2026-10-29",
+        "mapsListingUrl": null,
+        "mapsSearchUrl": "https://www.google.com/maps/search/?api=1&query=Story%20-%20Tr%C3%A0%20Chanh%20C%C3%B4ng%20Nghi%E1%BB%87p%20648%20T%E1%BB%95%208%2C%20P.%20T%C3%ADch%20L%C6%B0%C6%A1ng%2C%20Th%C3%A1i%20Nguy%C3%AAn",
+        "distanceToSchoolKm": null,
+        "reportedOpeningHours": "08:00–22:00",
+        "reportedPriceRangeVnd": [
+          20000,
+          40000
         ],
-        "cons": [
-          "Điểm cần lưu ý minh họa"
+        "priceRecordedAt": null,
+        "checksNeeded": [
+          "Xác nhận còn hoạt động",
+          "Xác nhận vị trí và khoảng cách tới TNUT",
+          "Xác nhận địa chỉ và điện thoại",
+          "Xác nhận lịch mở cửa từng ngày",
+          "Xác nhận món/dịch vụ, giá và đơn vị tính",
+          "Xin phép sử dụng ảnh nếu cần"
+        ]
+      }
+    },
+    {
+      "id": "milk-tea-cong-nghiep",
+      "categoryId": "cafe",
+      "name": "Trà Sữa Milk Tea - Đại Học Công Nghiệp",
+      "description": "",
+      "address": "Gần Trường Đại Học Kỹ Thuật Công Nghiệp, Thái Nguyên",
+      "coordinates": null,
+      "cover": "",
+      "images": [],
+      "phone": "0387559765",
+      "sample": false,
+      "verifiedAt": "",
+      "recommended": false,
+      "studentBudget": false,
+      "opening_hours": {
+        "type": "unknown"
+      },
+      "prices": [],
+      "author_review": {
+        "overall": null,
+        "price": null,
+        "quality": null,
+        "service": null,
+        "space": null,
+        "text": "",
+        "pros": [],
+        "cons": []
+      },
+      "research": {
+        "status": "NEEDS_VERIFICATION",
+        "sourceUrl": "https://www.foody.vn/thai-nguyen/tra-sua-milk-tea-dai-hoc-cong-nghiep",
+        "sourceType": "THIRD_PARTY_DIRECTORY",
+        "accessedAt": "2026-10-29",
+        "mapsListingUrl": null,
+        "mapsSearchUrl": "https://www.google.com/maps/search/?api=1&query=Tr%C3%A0%20S%E1%BB%AFa%20Milk%20Tea%20-%20%C4%90%E1%BA%A1i%20H%E1%BB%8Dc%20C%C3%B4ng%20Nghi%E1%BB%87p%20G%E1%BA%A7n%20Tr%C6%B0%E1%BB%9Dng%20%C4%90%E1%BA%A1i%20H%E1%BB%8Dc%20K%E1%BB%B9%20Thu%E1%BA%ADt%20C%C3%B4ng%20Nghi%E1%BB%87p%2C%20Th%C3%A1i%20Nguy%C3%AAn",
+        "distanceToSchoolKm": null,
+        "reportedOpeningHours": "08:00–22:00",
+        "reportedPriceRangeVnd": [
+          20000,
+          40000
+        ],
+        "priceRecordedAt": null,
+        "checksNeeded": [
+          "Xác nhận còn hoạt động",
+          "Xác nhận vị trí và khoảng cách tới TNUT",
+          "Xác nhận địa chỉ và điện thoại",
+          "Xác nhận lịch mở cửa từng ngày",
+          "Xác nhận món/dịch vụ, giá và đơn vị tính",
+          "Xin phép sử dụng ảnh nếu cần"
+        ]
+      }
+    },
+    {
+      "id": "xuka-cream",
+      "categoryId": "food",
+      "name": "Xuka Cream - Kem & Các Món Ăn Vặt",
+      "description": "",
+      "address": "987 Thống Nhất, Thái Nguyên",
+      "coordinates": null,
+      "cover": "",
+      "images": [],
+      "phone": "0379686661",
+      "sample": false,
+      "verifiedAt": "",
+      "recommended": false,
+      "studentBudget": false,
+      "opening_hours": {
+        "type": "unknown"
+      },
+      "prices": [],
+      "author_review": {
+        "overall": null,
+        "price": null,
+        "quality": null,
+        "service": null,
+        "space": null,
+        "text": "",
+        "pros": [],
+        "cons": []
+      },
+      "research": {
+        "status": "NEEDS_VERIFICATION",
+        "sourceUrl": "https://www.foody.vn/thai-nguyen/xuka-cream-kem-cac-mon-an-vat",
+        "sourceType": "THIRD_PARTY_DIRECTORY",
+        "accessedAt": "2026-10-29",
+        "mapsListingUrl": null,
+        "mapsSearchUrl": "https://www.google.com/maps/search/?api=1&query=Xuka%20Cream%20-%20Kem%20%26%20C%C3%A1c%20M%C3%B3n%20%C4%82n%20V%E1%BA%B7t%20987%20Th%E1%BB%91ng%20Nh%E1%BA%A5t%2C%20Th%C3%A1i%20Nguy%C3%AAn",
+        "distanceToSchoolKm": null,
+        "reportedOpeningHours": "08:00–22:00",
+        "reportedPriceRangeVnd": [
+          15000,
+          80000
+        ],
+        "priceRecordedAt": null,
+        "checksNeeded": [
+          "Xác nhận còn hoạt động",
+          "Xác nhận vị trí và khoảng cách tới TNUT",
+          "Xác nhận địa chỉ và điện thoại",
+          "Xác nhận lịch mở cửa từng ngày",
+          "Xác nhận món/dịch vụ, giá và đơn vị tính",
+          "Xin phép sử dụng ảnh nếu cần"
+        ]
+      }
+    },
+    {
+      "id": "ca-hoi-cho-don-tan-lap",
+      "categoryId": "food",
+      "name": "Cá Hồi Chợ Đồn - Tân Lập",
+      "description": "",
+      "address": "Tổ 6, Ba Tháng Hai, P. Tân Lập, Thái Nguyên",
+      "coordinates": null,
+      "cover": "",
+      "images": [],
+      "phone": "0977047513",
+      "sample": false,
+      "verifiedAt": "",
+      "recommended": false,
+      "studentBudget": false,
+      "opening_hours": {
+        "type": "unknown"
+      },
+      "prices": [],
+      "author_review": {
+        "overall": null,
+        "price": null,
+        "quality": null,
+        "service": null,
+        "space": null,
+        "text": "",
+        "pros": [],
+        "cons": []
+      },
+      "research": {
+        "status": "NEEDS_VERIFICATION",
+        "sourceUrl": "https://www.foody.vn/thai-nguyen/ca-hoi-cho-don-tan-lap",
+        "sourceType": "THIRD_PARTY_DIRECTORY",
+        "accessedAt": "2026-10-29",
+        "mapsListingUrl": null,
+        "mapsSearchUrl": "https://www.google.com/maps/search/?api=1&query=C%C3%A1%20H%E1%BB%93i%20Ch%E1%BB%A3%20%C4%90%E1%BB%93n%20-%20T%C3%A2n%20L%E1%BA%ADp%20T%E1%BB%95%206%2C%20Ba%20Th%C3%A1ng%20Hai%2C%20P.%20T%C3%A2n%20L%E1%BA%ADp%2C%20Th%C3%A1i%20Nguy%C3%AAn",
+        "distanceToSchoolKm": null,
+        "reportedOpeningHours": null,
+        "reportedPriceRangeVnd": [
+          100000,
+          250000
+        ],
+        "priceRecordedAt": null,
+        "checksNeeded": [
+          "Xác nhận còn hoạt động",
+          "Xác nhận vị trí và khoảng cách tới TNUT",
+          "Xác nhận địa chỉ và điện thoại",
+          "Xác nhận lịch mở cửa từng ngày",
+          "Xác nhận món/dịch vụ, giá và đơn vị tính",
+          "Xin phép sử dụng ảnh nếu cần"
         ]
       }
     }
