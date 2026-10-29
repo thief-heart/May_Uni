@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "schoolId": "tnut",
-  "version": "sample-1",
-  "datasetKind": "sample",
+  "version": "1.0.0",
+  "datasetKind": "real",
   "campus": {
     "latitude": 0,
     "longitude": 0
