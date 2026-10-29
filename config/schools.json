@@ -9,7 +9,7 @@
       "status": "unlock",
       "lock_message": "",
       "ads": {
-        "status": "on",
+        "status": "off",
         "image_url": "https://raw.githubusercontent.com/thief-heart/May_Uni/main/assets/ads/startup.jpg",
         "target_url": ""
       },
