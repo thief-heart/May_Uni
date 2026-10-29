@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "datasetKind": "real",
   "campus": {
-    "latitude": 0,
-    "longitude": 0
+    "latitude": 21.550473,
+    "longitude": 105.842235
   },
   "categories": [
     {
