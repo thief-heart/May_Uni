@@ -18,7 +18,7 @@
       }, 
       "cover": "",
       "images": [],
-      "phone": "null",
+      "phone": null,
       "sample": false,
       "verifiedAt": "",
       "recommended": true,
@@ -26,9 +26,9 @@
       "opening_hours": {
         "type": "unknown"
       },
-      "prices": ["15k-30k"],
+      "prices": [15000,30000],
       "author_review": {
-        "overall": ,
+        "overall": 8,
         "price": 10,
         "quality": 7,
         "service": 7,
@@ -44,7 +44,7 @@
         "accessedAt": "2026-10-29",
         "mapsListingUrl": null,
         "mapsSearchUrl": "",
-        "distanceToSchoolKm": 500,
+        "distanceToSchoolKm": 0.5,
         "reportedOpeningHours": "5:00–14:00",
         "reportedPriceRangeVnd": "15-30",
         "priceRecordedAt": "30/10/2026",
