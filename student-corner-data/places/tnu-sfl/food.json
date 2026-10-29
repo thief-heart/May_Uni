@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "schoolId": "tnu-sfl",
+  "version": "sample-1",
+  "places": [
+    {
+      "id": "sample-food",
+      "categoryId": "food",
+      "name": "[MẪU] Ăn uống",
+      "description": "Dữ liệu minh họa để xem giao diện, không phải địa điểm thật. Không dùng giá hay tọa độ này để đi thực tế.",
+      "address": "Địa chỉ minh họa — không phải địa điểm thật",
+      "cover": "",
+      "images": [],
+      "coordinates": {
+        "latitude": 0.001,
+        "longitude": 0.005
+      },
+      "phone": "",
+      "sample": true,
+      "verifiedAt": "2026-10-01",
+      "recommended": true,
+      "studentBudget": true,
+      "opening_hours": {
+        "type": "schedule",
+        "verifiedAt": "2026-10-01",
+        "days": {
+          "monday": [
+            {
+              "open": "18:00",
+              "close": "02:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "open": "18:00",
+              "close": "02:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "open": "18:00",
+              "close": "02:00"
+            }
+          ],
+          "thursday": [
+            {
+              "open": "18:00",
+              "close": "02:00"
+            }
+          ],
+          "friday": [
+            {
+              "open": "18:00",
+              "close": "02:00"
+            }
+          ],
+          "saturday": [
+            {
+              "open": "18:00",
+              "close": "02:00"
+            }
+          ],
+          "sunday": [
+            {
+              "open": "18:00",
+              "close": "02:00"
+            }
+          ]
+        }
+      },
+      "prices": [
+        {
+          "name": "Món minh họa",
+          "unit": "VNĐ/suất",
+          "price_history": [
+            {
+              "price": 25000,
+              "recorded_at": "2026-08-12"
+            },
+            {
+              "price": 30000,
+              "recorded_at": "2026-10-29"
+            }
+          ]
+        }
+      ],
+      "author_review": {
+        "overall": 7.5,
+        "price": 8,
+        "quality": 7,
+        "service": 7,
+        "space": 8,
+        "text": "Nhận xét minh họa của tác giả, không phải đánh giá quán thật.",
+        "pros": [
+          "Điểm tốt minh họa"
+        ],
+        "cons": [
+          "Điểm cần lưu ý minh họa"
+        ]
+      }
+    }
+  ]
+}

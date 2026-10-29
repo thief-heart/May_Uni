@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "schoolId": "tnut",
+  "version": "sample-1",
+  "places": [
+    {
+      "id": "sample-repair",
+      "categoryId": "repair",
+      "name": "[MẪU] Sửa xe / cứu hộ",
+      "description": "Dữ liệu minh họa để xem giao diện, không phải địa điểm thật. Không dùng giá hay tọa độ này để đi thực tế.",
+      "address": "Địa chỉ minh họa — không phải địa điểm thật",
+      "cover": "",
+      "images": [],
+      "coordinates": {
+        "latitude": 0.001,
+        "longitude": 0.005
+      },
+      "phone": "",
+      "sample": true,
+      "verifiedAt": "2026-10-01",
+      "recommended": false,
+      "studentBudget": false,
+      "opening_hours": {
+        "type": "always"
+      },
+      "prices": [],
+      "author_review": {
+        "overall": 7.5,
+        "price": 8,
+        "quality": 7,
+        "service": 7,
+        "space": 8,
+        "text": "Nhận xét minh họa của tác giả, không phải đánh giá quán thật.",
+        "pros": [
+          "Điểm tốt minh họa"
+        ],
+        "cons": [
+          "Điểm cần lưu ý minh họa"
+        ]
+      }
+    },
+    {
+      "id": "sample-phone-repair",
+      "categoryId": "phone-repair",
+      "name": "[MẪU] Sửa điện thoại",
+      "description": "Dữ liệu minh họa để xem giao diện, không phải địa điểm thật. Không dùng giá hay tọa độ này để đi thực tế.",
+      "address": "Địa chỉ minh họa — không phải địa điểm thật",
+      "cover": "",
+      "images": [],
+      "coordinates": {
+        "latitude": 0.002,
+        "longitude": 0.005
+      },
+      "phone": "",
+      "sample": true,
+      "verifiedAt": "2026-10-01",
+      "recommended": false,
+      "studentBudget": false,
+      "opening_hours": {
+        "type": "always"
+      },
+      "prices": [],
+      "author_review": {
+        "overall": 7.5,
+        "price": 8,
+        "quality": 7,
+        "service": 7,
+        "space": 8,
+        "text": "Nhận xét minh họa của tác giả, không phải đánh giá quán thật.",
+        "pros": [
+          "Điểm tốt minh họa"
+        ],
+        "cons": [
+          "Điểm cần lưu ý minh họa"
+        ]
+      }
+    }
+  ]
+}

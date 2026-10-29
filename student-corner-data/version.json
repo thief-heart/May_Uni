@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "schools": {
+    "tnut": {
+      "version": "sample-1",
+      "configPath": "config/tnut.json"
+    },
+    "tnu-sfl": {
+      "version": "sample-1",
+      "configPath": "config/tnu-sfl.json"
+    }
+  }
+}

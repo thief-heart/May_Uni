@@ -1,0 +1,242 @@
+{
+  "schemaVersion": 1,
+  "schoolId": "tnut",
+  "version": "sample-1",
+  "datasetKind": "sample",
+  "campus": {
+    "latitude": 0,
+    "longitude": 0
+  },
+  "categories": [
+    {
+      "id": "food",
+      "label": "Ăn uống",
+      "emoji": "🍜"
+    },
+    {
+      "id": "cafe",
+      "label": "Cafe / trà sữa",
+      "emoji": "☕"
+    },
+    {
+      "id": "billiards",
+      "label": "Bi-a",
+      "emoji": "🎱"
+    },
+    {
+      "id": "karaoke",
+      "label": "Karaoke",
+      "emoji": "🎤"
+    },
+    {
+      "id": "fuel",
+      "label": "Trạm xăng",
+      "emoji": "⛽"
+    },
+    {
+      "id": "pharmacy",
+      "label": "Nhà thuốc",
+      "emoji": "💊"
+    },
+    {
+      "id": "convenience",
+      "label": "Tiện lợi / tạp hóa",
+      "emoji": "🏪"
+    },
+    {
+      "id": "repair",
+      "label": "Sửa xe / cứu hộ",
+      "emoji": "🛠️"
+    },
+    {
+      "id": "printing",
+      "label": "Photo / in ấn",
+      "emoji": "🖨️"
+    },
+    {
+      "id": "hair",
+      "label": "Cắt tóc",
+      "emoji": "💇"
+    },
+    {
+      "id": "gaming",
+      "label": "Quán net / gaming",
+      "emoji": "🎮"
+    },
+    {
+      "id": "housing",
+      "label": "Nhà trọ",
+      "emoji": "🏠"
+    },
+    {
+      "id": "phone-repair",
+      "label": "Sửa điện thoại",
+      "emoji": "🔧"
+    },
+    {
+      "id": "atm",
+      "label": "ATM",
+      "emoji": "🏧"
+    }
+  ],
+  "urgentActions": [
+    {
+      "id": "fuel",
+      "label": "Hết xăng",
+      "emoji": "⛽",
+      "categoryIds": [
+        "fuel"
+      ]
+    },
+    {
+      "id": "food",
+      "label": "Đói / Ăn đêm",
+      "emoji": "🍜",
+      "categoryIds": [
+        "food",
+        "convenience"
+      ]
+    },
+    {
+      "id": "medicine",
+      "label": "Cần thuốc",
+      "emoji": "💊",
+      "categoryIds": [
+        "pharmacy"
+      ]
+    },
+    {
+      "id": "repair",
+      "label": "Hỏng xe / cứu hộ",
+      "emoji": "🛠️",
+      "categoryIds": [
+        "repair"
+      ]
+    },
+    {
+      "id": "shopping",
+      "label": "Mua đồ gấp",
+      "emoji": "🏪",
+      "categoryIds": [
+        "convenience"
+      ]
+    },
+    {
+      "id": "print",
+      "label": "In / photo",
+      "emoji": "🖨️",
+      "categoryIds": [
+        "printing"
+      ]
+    },
+    {
+      "id": "phone",
+      "label": "Sửa điện thoại",
+      "emoji": "🔧",
+      "categoryIds": [
+        "phone-repair"
+      ]
+    },
+    {
+      "id": "atm",
+      "label": "ATM",
+      "emoji": "🏧",
+      "categoryIds": [
+        "atm"
+      ]
+    }
+  ],
+  "chunks": [
+    {
+      "id": "food",
+      "path": "places/tnut/food.json",
+      "version": "sample-1",
+      "categoryIds": [
+        "food"
+      ]
+    },
+    {
+      "id": "cafe",
+      "path": "places/tnut/cafe.json",
+      "version": "sample-1",
+      "categoryIds": [
+        "cafe"
+      ]
+    },
+    {
+      "id": "billiards",
+      "path": "places/tnut/billiards.json",
+      "version": "sample-1",
+      "categoryIds": [
+        "billiards"
+      ]
+    },
+    {
+      "id": "karaoke",
+      "path": "places/tnut/karaoke.json",
+      "version": "sample-1",
+      "categoryIds": [
+        "karaoke"
+      ]
+    },
+    {
+      "id": "fuel",
+      "path": "places/tnut/fuel.json",
+      "version": "sample-1",
+      "categoryIds": [
+        "fuel"
+      ]
+    },
+    {
+      "id": "pharmacy",
+      "path": "places/tnut/pharmacy.json",
+      "version": "sample-1",
+      "categoryIds": [
+        "pharmacy"
+      ]
+    },
+    {
+      "id": "convenience",
+      "path": "places/tnut/convenience.json",
+      "version": "sample-1",
+      "categoryIds": [
+        "convenience"
+      ]
+    },
+    {
+      "id": "repair",
+      "path": "places/tnut/repair.json",
+      "version": "sample-1",
+      "categoryIds": [
+        "repair",
+        "phone-repair"
+      ]
+    },
+    {
+      "id": "printing",
+      "path": "places/tnut/printing.json",
+      "version": "sample-1",
+      "categoryIds": [
+        "printing"
+      ]
+    },
+    {
+      "id": "housing",
+      "path": "places/tnut/housing.json",
+      "version": "sample-1",
+      "categoryIds": [
+        "housing"
+      ]
+    },
+    {
+      "id": "services",
+      "path": "places/tnut/services.json",
+      "version": "sample-1",
+      "categoryIds": [
+        "hair",
+        "gaming",
+        "atm"
+      ]
+    }
+  ]
+}
