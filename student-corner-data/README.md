@@ -43,6 +43,27 @@ Chạy `npm.cmd run data:validate` trong project. Lệnh kiểm tra manifest/con
 
 ## Thêm địa điểm
 
+### Cách nhập nhanh
+
+Có thể đưa một mảng JSON ngắn vào chunk của đúng danh mục. Chỉ cần `name` và `type`; các trường khác tùy chọn. `type` nhận ID danh mục trong config như `food`, `cafe`, `billiards`, `fuel`, `printing`, `pharmacy`, `karaoke`, `repair`, `housing`, `convenience`, `atm`, `services`; các tên quen thuộc `drink`, `gas`, `copy`, `store` cũng được đổi sang danh mục tương ứng.
+
+```json
+[
+  {
+    "name": "Tên địa điểm",
+    "type": "food",
+    "price": "25–40k",
+    "map": "https://www.google.com/maps/search/?api=1&query=Ten+dia+diem",
+    "note": "Ghi chú ngắn",
+    "open": "06:00–22:00"
+  }
+]
+```
+
+`price`, `map`, `note` và `open` được giữ như thông tin tham khảo; riêng giờ mở cửa và khoảng giá không tự được xem là đã xác minh. Không nhập tọa độ, ID, icon, màu hay ngày cập nhật. App tự tạo ID từ tên, kiểm tra URL Maps và bỏ qua từng dòng lỗi mà không làm hỏng danh sách. Link bản đồ chỉ được mở từ HTTPS của Google Maps/Maps short link.
+
+Khi cần ngày xác minh, giá theo từng món, ảnh hoặc giờ theo từng ngày, dùng schema đầy đủ bên dưới.
+
 Trong chunk đúng nhóm, thêm phần tử vào `places`. ID phải duy nhất trong trường, dạng chữ thường/số/gạch ngang/gạch dưới, dài tối đa 64 ký tự. Không tái dùng ID của địa điểm khác.
 
 ```json
@@ -63,9 +84,14 @@ Trong chunk đúng nhóm, thêm phần tử vào `places`. ID phải duy nhất 
   "opening_hours": { "type": "unknown" },
   "prices": [],
   "author_review": {
-    "overall": null, "price": null, "quality": null,
-    "service": null, "space": null,
-    "text": "", "pros": [], "cons": []
+    "overall": null,
+    "price": null,
+    "quality": null,
+    "service": null,
+    "space": null,
+    "text": "",
+    "pros": [],
+    "cons": []
   }
 }
 ```
@@ -100,10 +126,16 @@ Theo lịch: cấu trúc `days` chứa monday...sunday, mỗi ngày một mảng
   "type": "schedule",
   "verifiedAt": "2026-10-30",
   "days": {
-    "monday": [{"open":"18:00", "close":"02:00"}],
+    "monday": [{ "open": "18:00", "close": "02:00" }],
     "tuesday": [],
-    "wednesday": [{"open":"06:00", "close":"11:00"}, {"open":"17:00", "close":"22:00"}],
-    "thursday": [], "friday": [], "saturday": [], "sunday": []
+    "wednesday": [
+      { "open": "06:00", "close": "11:00" },
+      { "open": "17:00", "close": "22:00" }
+    ],
+    "thursday": [],
+    "friday": [],
+    "saturday": [],
+    "sunday": []
   }
 }
 ```
@@ -115,7 +147,7 @@ Ví dụ minh họa. Ca 18:00–02:00 thứ Hai vẫn mở đến 02:00 thứ Ba
 Thêm một category vào `config/<school>.json`:
 
 ```json
-{"id":"laundry","label":"Giặt là","emoji":"🧺"}
+{ "id": "laundry", "label": "Giặt là", "emoji": "🧺" }
 ```
 
 Thêm `laundry` vào `categoryIds` của chunk đang dùng hoặc thêm chunk mới có `id`, `path`, `version`, `categoryIds`. Đưa Place với categoryId laundry vào chunk đó. UI tự hiện category; không cần sửa code. Nhãn nội dung mới hiển thị nguyên văn nếu chưa có bản dịch.
@@ -123,7 +155,12 @@ Thêm `laundry` vào `categoryIds` của chunk đang dùng hoặc thêm chunk m�
 Thêm lựa chọn Cần gấp trong cùng config:
 
 ```json
-{"id":"laundry-fast","label":"Giặt gấp","emoji":"🧺","categoryIds":["laundry"]}
+{
+  "id": "laundry-fast",
+  "label": "Giặt gấp",
+  "emoji": "🧺",
+  "categoryIds": ["laundry"]
+}
 ```
 
 Một lựa chọn có thể lọc nhiều danh mục. Không có database Cần gấp riêng. Ưu tiên: đang mở > chưa biết giờ > đã đóng; trong mỗi nhóm xét khoảng cách đường thẳng, ngày xác minh gần đây, điểm tác giả rồi giá. Không có quyền vị trí thì dùng mốc trường (nếu có), thiếu cả hai vẫn xem được kết quả nhưng không tính khoảng cách. Cần thuốc chỉ là danh mục nhà thuốc, không phải tư vấn y tế hay bảo đảm có thuốc.

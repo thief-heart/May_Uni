@@ -1,12 +1,9 @@
 {
   "schemaVersion": 1,
   "schoolId": "tnut",
-  "version": "1.0.0",
+  "version": "simple-2026-10-30-02",
   "datasetKind": "real",
-  "campus": {
-    "latitude": 21.550473,
-    "longitude": 105.842235
-  },
+  "campus": null,
   "categories": [
     {
       "id": "food",
@@ -150,7 +147,7 @@
     {
       "id": "food",
       "path": "places/tnut/food.json",
-      "version": "1.0.0",
+      "version": "simple-2026-10-30-02",
       "categoryIds": [
         "food"
       ]
@@ -158,7 +155,7 @@
     {
       "id": "cafe",
       "path": "places/tnut/cafe.json",
-      "version": "1.0.0",
+      "version": "simple-2026-10-30-02",
       "categoryIds": [
         "cafe"
       ]
@@ -166,7 +163,7 @@
     {
       "id": "billiards",
       "path": "places/tnut/billiards.json",
-      "version": "1.0.0",
+      "version": "sample-1",
       "categoryIds": [
         "billiards"
       ]
@@ -174,7 +171,7 @@
     {
       "id": "karaoke",
       "path": "places/tnut/karaoke.json",
-      "version": "1.0.0",
+      "version": "sample-1",
       "categoryIds": [
         "karaoke"
       ]
@@ -182,7 +179,7 @@
     {
       "id": "fuel",
       "path": "places/tnut/fuel.json",
-      "version": "1.0.0",
+      "version": "sample-1",
       "categoryIds": [
         "fuel"
       ]
@@ -190,7 +187,7 @@
     {
       "id": "pharmacy",
       "path": "places/tnut/pharmacy.json",
-      "version": "1.0.0",
+      "version": "sample-1",
       "categoryIds": [
         "pharmacy"
       ]
@@ -198,7 +195,7 @@
     {
       "id": "convenience",
       "path": "places/tnut/convenience.json",
-      "version": "1.0.0",
+      "version": "sample-1",
       "categoryIds": [
         "convenience"
       ]
@@ -206,7 +203,7 @@
     {
       "id": "repair",
       "path": "places/tnut/repair.json",
-      "version": "1.0.0",
+      "version": "sample-1",
       "categoryIds": [
         "repair",
         "phone-repair"
@@ -215,7 +212,7 @@
     {
       "id": "printing",
       "path": "places/tnut/printing.json",
-      "version": "1.0.0",
+      "version": "sample-1",
       "categoryIds": [
         "printing"
       ]
@@ -223,7 +220,7 @@
     {
       "id": "housing",
       "path": "places/tnut/housing.json",
-      "version": "1.0.0",
+      "version": "sample-1",
       "categoryIds": [
         "housing"
       ]
@@ -231,7 +228,7 @@
     {
       "id": "services",
       "path": "places/tnut/services.json",
-      "version": "1.0.0",
+      "version": "sample-1",
       "categoryIds": [
         "hair",
         "gaming",

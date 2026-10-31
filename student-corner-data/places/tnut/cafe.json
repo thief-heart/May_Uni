@@ -1,42 +1,52 @@
 {
   "schemaVersion": 1,
   "schoolId": "tnut",
-  "version": "sample-1",
+  "version": "simple-2026-10-30-02",
   "places": [
     {
-      "id": "sample-cafe",
-      "categoryId": "cafe",
-      "name": "[MẪU] Cafe / trà sữa",
-      "description": "Dữ liệu minh họa để xem giao diện, không phải địa điểm thật. Không dùng giá hay tọa độ này để đi thực tế.",
-      "address": "Địa chỉ minh họa — không phải địa điểm thật",
-      "cover": "",
-      "images": [],
-      "coordinates": {
-        "latitude": 0.001,
-        "longitude": 0.005
-      },
-      "phone": "",
-      "sample": true,
-      "verifiedAt": "2026-10-01",
-      "recommended": true,
-      "studentBudget": false,
-      "opening_hours": {
-        "type": "always"
-      },
-      "prices": [],
-      "author_review": {
-        "overall": 7.5,
-        "price": 8,
-        "quality": 7,
-        "service": 7,
-        "space": 8,
-        "text": "Nhận xét minh họa của tác giả, không phải đánh giá quán thật.",
-        "pros": [
-          "Điểm tốt minh họa"
+      "id": "story-tra-chanh-cong-nghiep",
+      "name": "Story - Trà Chanh Công Nghiệp",
+      "type": "cafe",
+      "price": "",
+      "map": "https://www.google.com/maps/search/?api=1&query=Story+-+Trà+Chanh+Công+Nghiệp+TNUT",
+      "note": "Thông tin tổng hợp từ nguồn công khai, chưa xác minh trực tiếp với cơ sở. Nên gọi hoặc kiểm tra bản đồ trước khi đến.",
+      "open": "08:00–22:00",
+      "address": "648 Tổ 8, P. Tích Lương, Thành phố Thái Nguyên, Thái Nguyên",
+      "phone": "0866111252",
+      "research": {
+        "sourceUrl": "https://www.foody.vn/thai-nguyen/story-tra-chanh-cong-nghiep",
+        "sourceType": "public-directory",
+        "researchedAt": "2026-10-30",
+        "reportedOpeningHours": "08:00–22:00",
+        "reportedPriceRangeVnd": [
+          20000,
+          40000
         ],
-        "cons": [
-          "Điểm cần lưu ý minh họa"
-        ]
+        "mapsSearchUrl": "https://www.google.com/maps/search/?api=1&query=Story+-+Trà+Chanh+Công+Nghiệp+TNUT",
+        "status": "unverified"
+      }
+    },
+    {
+      "id": "milk-tea-cong-nghiep",
+      "name": "Trà Sữa Milk Tea - Đại Học Công Nghiệp",
+      "type": "cafe",
+      "price": "",
+      "map": "https://www.google.com/maps/search/?api=1&query=Trà+Sữa+Milk+Tea+-+Đại+Học+Công+Nghiệp+TNUT",
+      "note": "Thông tin tổng hợp từ nguồn công khai, chưa xác minh trực tiếp với cơ sở. Nên gọi hoặc kiểm tra bản đồ trước khi đến.",
+      "open": "08:00–22:00",
+      "address": "Gần Trường Đại học Kỹ thuật Công nghiệp, Thành phố Thái Nguyên, Thái Nguyên",
+      "phone": "0387559765",
+      "research": {
+        "sourceUrl": "https://www.foody.vn/thai-nguyen/tra-sua-milk-tea-dai-hoc-cong-nghiep",
+        "sourceType": "public-directory",
+        "researchedAt": "2026-10-30",
+        "reportedOpeningHours": "08:00–22:00",
+        "reportedPriceRangeVnd": [
+          20000,
+          40000
+        ],
+        "mapsSearchUrl": "https://www.google.com/maps/search/?api=1&query=Trà+Sữa+Milk+Tea+-+Đại+Học+Công+Nghiệp+TNUT",
+        "status": "unverified"
       }
     }
   ]

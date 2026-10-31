@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "schools": {
     "tnut": {
-      "version": "1.0.0",
+      "version": "simple-2026-10-30-02",
       "configPath": "config/tnut.json"
     },
     "tnu-sfl": {
