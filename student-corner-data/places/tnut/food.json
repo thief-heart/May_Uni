@@ -1,26 +1,36 @@
 {
   "schemaVersion": 1,
   "schoolId": "tnut",
-  "version": "simple-2026-10-30-02",
+  "version": "2026-10-30-02",
   "places": [
     {
-      "id": "quan-mam-cong-nghiep",
-      "name": "Quán Mắm - Đại học Công Nghiệp Thái Nguyên",
+      "id": "cho-cong-nghiep",
+      "name": "Quán bún phở chợ Tê Ba Nhất",
       "type": "food",
-      "price": "",
-      "map": "https://www.google.com/maps/search/?api=1&query=Quán+Mắm+-+Đại+học+Công+Nghiệp+Thái+Nguyên+TNUT",
-      "note": "Thông tin tổng hợp từ nguồn công khai, chưa xác minh trực tiếp với cơ sở. Nên gọi hoặc kiểm tra bản đồ trước khi đến.",
+      "price": "15.000-30.000",
+      "map": "",
+      "note": "Thông tin tổng hợp từ nguồn công khai,. Nên gọi hoặc kiểm tra bản đồ trước khi đến.",
+      "author_review": {
+    "overall": 8.5,
+    "price": 8,
+    "quality": 8,
+    "service": 8,
+    "space": 8,
+    "text": "",
+    "pros": [],
+    "cons": []
+  },
       "open": "09:00–22:00",
-      "address": "1091 Đ. 3/2, Tích Lương, Thái Nguyên, Việt Nam",
+      "address": "3/2, Tích Lương, Thái Nguyên, Việt Nam",
       "phone": "+84 833 736 694",
       "research": {
-        "sourceUrl": "https://toididau.net/place/quan-mam-dai-hoc-cong-nghiep-thai-nguyen/37746",
+        "sourceUrl": "",
         "sourceType": "public-directory",
         "researchedAt": "2026-10-30",
         "reportedOpeningHours": "09:00–22:00",
-        "reportedPriceRangeVnd": null,
-        "mapsSearchUrl": "https://www.google.com/maps/search/?api=1&query=Quán+Mắm+-+Đại+học+Công+Nghiệp+Thái+Nguyên+TNUT",
-        "status": "unverified"
+        "reportedPriceRangeVnd": "15.000-30.000",
+        "mapsSearchUrl": "https://maps.app.goo.gl/o18kH5mhRaxyPy2u9",
+        "status": "verified"
       }
     },
     {
