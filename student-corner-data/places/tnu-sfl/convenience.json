@@ -1,42 +1,26 @@
 {
   "schemaVersion": 1,
   "schoolId": "tnu-sfl",
-  "version": "sample-1",
+  "version": "2026-11-01-01",
   "places": [
     {
-      "id": "sample-convenience",
-      "categoryId": "convenience",
-      "name": "[MẪU] Tiện lợi / tạp hóa",
-      "description": "Dữ liệu minh họa để xem giao diện, không phải địa điểm thật. Không dùng giá hay tọa độ này để đi thực tế.",
-      "address": "Địa chỉ minh họa — không phải địa điểm thật",
-      "cover": "",
-      "images": [],
-      "coordinates": {
-        "latitude": 0.001,
-        "longitude": 0.005
-      },
-      "phone": "",
+      "name": "[MẪU] Quán A — convenience",
+      "type": "convenience",
       "sample": true,
-      "verifiedAt": "2026-10-01",
-      "recommended": false,
-      "studentBudget": false,
-      "opening_hours": {
-        "type": "always"
-      },
-      "prices": [],
+      "price": "",
+      "map": "",
+      "open": "",
+      "verifiedAt": "",
+      "note": "Dữ liệu mẫu, chưa phải địa điểm thật.",
       "author_review": {
-        "overall": 7.5,
-        "price": 8,
-        "quality": 7,
-        "service": 7,
-        "space": 8,
-        "text": "Nhận xét minh họa của tác giả, không phải đánh giá quán thật.",
-        "pros": [
-          "Điểm tốt minh họa"
-        ],
-        "cons": [
-          "Điểm cần lưu ý minh họa"
-        ]
+        "overall": null,
+        "price": null,
+        "quality": null,
+        "service": null,
+        "space": null,
+        "text": "",
+        "pros": [],
+        "cons": []
       }
     }
   ]

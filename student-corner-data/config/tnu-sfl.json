@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "schoolId": "tnu-sfl",
-  "version": "sample-1",
+  "version": "2026-11-01-01",
   "datasetKind": "sample",
   "campus": {
     "latitude": 0,
@@ -150,7 +150,7 @@
     {
       "id": "food",
       "path": "places/tnu-sfl/food.json",
-      "version": "sample-1",
+      "version": "2026-11-01-01",
       "categoryIds": [
         "food"
       ]
@@ -158,7 +158,7 @@
     {
       "id": "cafe",
       "path": "places/tnu-sfl/cafe.json",
-      "version": "sample-1",
+      "version": "2026-11-01-01",
       "categoryIds": [
         "cafe"
       ]
@@ -166,7 +166,7 @@
     {
       "id": "billiards",
       "path": "places/tnu-sfl/billiards.json",
-      "version": "sample-1",
+      "version": "2026-11-01-01",
       "categoryIds": [
         "billiards"
       ]
@@ -174,7 +174,7 @@
     {
       "id": "karaoke",
       "path": "places/tnu-sfl/karaoke.json",
-      "version": "sample-1",
+      "version": "2026-11-01-01",
       "categoryIds": [
         "karaoke"
       ]
@@ -182,7 +182,7 @@
     {
       "id": "fuel",
       "path": "places/tnu-sfl/fuel.json",
-      "version": "sample-1",
+      "version": "2026-11-01-01",
       "categoryIds": [
         "fuel"
       ]
@@ -190,7 +190,7 @@
     {
       "id": "pharmacy",
       "path": "places/tnu-sfl/pharmacy.json",
-      "version": "sample-1",
+      "version": "2026-11-01-01",
       "categoryIds": [
         "pharmacy"
       ]
@@ -198,7 +198,7 @@
     {
       "id": "convenience",
       "path": "places/tnu-sfl/convenience.json",
-      "version": "sample-1",
+      "version": "2026-11-01-01",
       "categoryIds": [
         "convenience"
       ]
@@ -206,7 +206,7 @@
     {
       "id": "repair",
       "path": "places/tnu-sfl/repair.json",
-      "version": "sample-1",
+      "version": "2026-11-01-01",
       "categoryIds": [
         "repair",
         "phone-repair"
@@ -215,7 +215,7 @@
     {
       "id": "printing",
       "path": "places/tnu-sfl/printing.json",
-      "version": "sample-1",
+      "version": "2026-11-01-01",
       "categoryIds": [
         "printing"
       ]
@@ -223,7 +223,7 @@
     {
       "id": "housing",
       "path": "places/tnu-sfl/housing.json",
-      "version": "sample-1",
+      "version": "2026-11-01-01",
       "categoryIds": [
         "housing"
       ]
@@ -231,7 +231,7 @@
     {
       "id": "services",
       "path": "places/tnu-sfl/services.json",
-      "version": "sample-1",
+      "version": "2026-11-01-01",
       "categoryIds": [
         "hair",
         "gaming",

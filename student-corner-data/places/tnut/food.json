@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "schoolId": "tnut",
-  "version": "2026-10-30-02",
+  "version": "2026-11-01-01",
   "places": [
     {
       "id": "cho-cong-nghiep",
@@ -11,15 +11,15 @@
       "map": "",
       "note": "Thông tin tổng hợp từ nguồn công khai,. Nên gọi hoặc kiểm tra bản đồ trước khi đến.",
       "author_review": {
-    "overall": 8.5,
-    "price": 8,
-    "quality": 8,
-    "service": 8,
-    "space": 8,
-    "text": "",
-    "pros": [],
-    "cons": []
-  },
+        "overall": 8.5,
+        "price": 8,
+        "quality": 8,
+        "service": 8,
+        "space": 8,
+        "text": "",
+        "pros": [],
+        "cons": []
+      },
       "open": "09:00–22:00",
       "address": "3/2, Tích Lương, Thái Nguyên, Việt Nam",
       "phone": "+84 833 736 694",
